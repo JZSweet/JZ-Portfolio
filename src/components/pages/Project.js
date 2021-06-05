@@ -20,7 +20,7 @@ class Project extends Component {
             <Card.Body>
               <Card.Title>React Employee Directory</Card.Title>
               <Card.Text>
-                 Directory to all the non-sensitive employees information. Build with MERN. Host on Heroku.
+                 Directory to all non-sensitive employee information. Build with MERN. Hosted on Heroku.
               </Card.Text>
             </Card.Body>
             <Card.Body>
@@ -34,14 +34,14 @@ class Project extends Component {
           <Card style={{ width: '21rem' }}>
             <Card.Img variant="top" src={HW2} />
             <Card.Body>
-              <Card.Title>Count Down Quiz</Card.Title>
+              <Card.Title>Burger Shop</Card.Title>
               <Card.Text>
-               Timed quiz on JavaScript fundamentals. My first project, not my best work but its especial to me.
+              Restaurant app to order burgers. Build with Handlebars and a homemade ORM followed the MVC design pattern.
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="https://github.com/JZSweet/countdown-quiz" target="_blank">Checkout Repo</Card.Link>
-              <Card.Link href="https://jzsweet.github.io/countdown-quiz/" target="_blank">Checkout Site</Card.Link>
+              <Card.Link href="https://github.com/JZSweet/Burger" target="_blank">Checkout Repo</Card.Link>
+              <Card.Link href="https://burger-jz.herokuapp.com/" target="_blank">Checkout Site</Card.Link>
             </Card.Body>
           </Card>
           </Col>
@@ -52,7 +52,7 @@ class Project extends Component {
             <Card.Body>
               <Card.Title>Fitness Tracker</Card.Title>
               <Card.Text>
-               A workout tracker i build (back end), connects to the MongoDB database. Host on Heroku.
+               A workout tracker I build (back end), connects to the MongoDB database. Hosted on Heroku.
               </Card.Text>
             </Card.Body>
             <Card.Body>
@@ -70,7 +70,7 @@ class Project extends Component {
             <Card.Body>
               <Card.Title>Entertainment Guide</Card.Title>
               <Card.Text>
-               An app to provide movies and TV shows information to users. My first group project. Used AJAX.
+               An app to provide movie and TV show information. My first group project. Used AJAX.
               </Card.Text>
             </Card.Body>
             <Card.Body>
@@ -86,7 +86,7 @@ class Project extends Component {
             <Card.Body>
               <Card.Title>Grocery list</Card.Title>
               <Card.Text>
-               An app to keep track of your grocery. My second group project. Used orm to connect to SQL.
+               An app to keep track of your groceries. My second group project. Used orm to connect to SQL.
               </Card.Text>
             </Card.Body>
             <Card.Body>
