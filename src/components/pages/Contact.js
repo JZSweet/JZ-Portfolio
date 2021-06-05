@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { FaLinkedin, FaGithub, FaMailBulk, FaFileDownload } from "react-icons/fa";
 import { Figure, Container, Row, Col, ListGroup, } from "react-bootstrap";
+import Resume from "./resume/JiaqianZhao.pdf";
 import JZc from "./img/jz3.jpg";
 import Appa from "./img/APPA.png";
 
@@ -8,8 +9,6 @@ class Contact extends Component {
   render() {
     return (
       <Container>
-        {/* <Row className="justify-content-md-center" >
-        </Row> */}
         <Row>
           <Col>
             <Figure>
@@ -30,7 +29,7 @@ class Contact extends Component {
                 <FaMailBulk size={30} />  workmailjz@gmail.com
               </ListGroup.Item>
               <ListGroup.Item>
-                <FaFileDownload size={30} />  Resume coming soon
+                <FaFileDownload size={30} />  Resume <a href={Resume} download="JiaqianZhao">Download</a>
               </ListGroup.Item>
             </ListGroup>
             <Figure>
