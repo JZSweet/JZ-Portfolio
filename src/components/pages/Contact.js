@@ -29,7 +29,7 @@ class Contact extends Component {
                 <FaMailBulk size={30} />  workmailjz@gmail.com
               </ListGroup.Item>
               <ListGroup.Item>
-                <FaFileDownload size={30} />  Resume <a href={Resume} download="JiaqianZhao">Download</a>
+              <a href={Resume} download="JiaqianZhao"> <FaFileDownload size={30} /></a>  Resume Download
               </ListGroup.Item>
             </ListGroup>
             <Figure>
