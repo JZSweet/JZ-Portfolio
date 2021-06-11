@@ -1,4 +1,5 @@
 import React from "react";
+import { FaRegIdCard, FaRegImages } from "react-icons/fa";
 
 function NavTabs(props) {
   return (
@@ -27,7 +28,7 @@ function NavTabs(props) {
           onClick={() => props.handlePageChange("Blog")}
           className={props.currentPage === "Blog" ? "nav-link active" : "nav-link"}
         >
-          Blog
+          Blog <FaRegImages size={30} />
         </a>
       </li>
       <li className="nav-item">
@@ -36,7 +37,7 @@ function NavTabs(props) {
           onClick={() => props.handlePageChange("Contact")}
           className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
-          Contact
+          Contact <FaRegIdCard size={30} />
         </a>
       </li>
     </ul>
