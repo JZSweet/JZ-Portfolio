@@ -26,10 +26,10 @@ class Contact extends Component {
                 <a href="https://github.com/JZSweet" rel="noreferrer" target="_blank"> <FaGithub size={30} /></a> Find me on GitHub
                 </ListGroup.Item>
               <ListGroup.Item>
-                <FaMailBulk size={30} />  workmailjz@gmail.com
+              <a href={Resume} download="JiaqianZhao"> <FaFileDownload size={30} /></a>  Resume Download
               </ListGroup.Item>
               <ListGroup.Item>
-              <a href={Resume} download="JiaqianZhao"> <FaFileDownload size={30} /></a>  Resume Download
+              < a href="mailto:workmailjz@gmail.com"> <FaMailBulk size={30} /></a>  E-mail me from here
               </ListGroup.Item>
             </ListGroup>
             <Figure>
